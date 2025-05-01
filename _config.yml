@@ -21,8 +21,8 @@ github_username:  mattyhakin
 # dribbble_username: jekyll
 # facebook_username: jekyll
 # flickr_username: jekyll
-instagram_username: jameswgrant
-linkedin_username: jameswgrant
+# instagram_username: jameswgrant
+linkedin_username: matthakin
 # xing_username: jekyll
 # pinterest_username: jekyll
 # youtube_username: globalmtb
@@ -31,9 +31,9 @@ linkedin_username: jameswgrant
 
 # Additional icon links
 additional_links:
-- title: itsgoingto.be
+- title: mattyhakin.github.io/
   icon: fas fa-globe
-  url: https://www.itsgoingto.be
+  url: https://mattyhakin.github.io/
 # - title: another link
 #   icon: font awesome brand icon name (eg. fab fa-twitter) (https://fontawesome.com/icons?d=gallery&m=free)
 #   url: Link url (eg. https://google.com)
