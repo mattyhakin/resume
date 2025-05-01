@@ -89,7 +89,10 @@ content:
   - title: Skills # Title for the section
     layout: text # Type of content section (list/text)
     content:
-     <mark>Technical</mark> - 
+     <mark>Technical</mark> - AWS, Teraform, Python, ServiceNOW, Cisco, BT Inbount Architecture, Microsoft Suite, GitHub, SWL, Qstory, PowerBi
+
+     <mark>Project</mark> - Agile, SAFe Methodology, Confluence, Jira, Zephyr Scale, Miro, Telephony Consultancy, Technical Design & Documentation, Project Management, Contact Centre Design, Steak Holder Management, Testing
+
 
 
   - title: A Little More About Me
