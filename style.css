@@ -40,6 +40,13 @@ header {
   font-size: 1.4em;
 }
 
+.social-inline a {
+  margin: 0 0.5em;
+  color: #333;
+  text-decoration: none;
+  font-size: 1.4em;
+}
+
 h1, h2, h3 {
   color: #2c3e50;
 }
