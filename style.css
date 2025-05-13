@@ -1,7 +1,8 @@
+
 body {
   font-family: 'Inter', sans-serif;
-  background: #fff;
-  color: #333;
+  background: #fafafa;
+  color: #2c3e50;
   line-height: 1.8;
   margin: 0;
   padding: 0;
@@ -28,23 +29,56 @@ header {
   box-shadow: 0 0 8px rgba(0, 0, 0, 0.1);
 }
 
+.badge-container {
+  display: flex;
+  justify-content: center;
+  gap: 0.75em;
+  flex-wrap: wrap;
+  margin: 1em auto 1.5em auto;
+}
+
+.badge-img {
+  height: 70px;
+  border-radius: 6px;
+  transition: transform 0.2s ease;
+  box-shadow: 0 2px 6px rgba(0, 0, 0, 0.1);
+}
+
+.badge-img:hover {
+  transform: scale(1.08);
+}
+
 .title {
   font-weight: bold;
   font-size: 1.2em;
+  margin-bottom: 0.3em;
 }
 
-.social a {
+header p {
+  margin: 0.5em 0 2em 0;
+}
+
+.social-inline a {
   margin: 0 0.5em;
   color: #333;
   text-decoration: none;
   font-size: 1.4em;
 }
 
-h1, h2, h3 {
-  color: #2c3e50;
+h1 {
+  font-size: 2.4em;
+  margin-bottom: 0.2em;
+}
+
+h2 {
+  font-size: 1.5em;
+  margin-top: 1.5em;
+  border-bottom: 1px solid #eee;
+  padding-bottom: 0.3em;
 }
 
 section {
+  margin-top: 2.5em;
   margin-bottom: 2.5em;
 }
 
@@ -59,6 +93,7 @@ section {
 
 ul {
   padding-left: 1.2em;
+  list-style: disc;
 }
 
 footer {
@@ -77,96 +112,4 @@ footer {
     width: 100px;
     height: 100px;
   }
-}
-
-.badge-container {
-  display: flex;
-  justify-content: center;
-  gap: 0.75em;
-  margin-top: 1em;
-  flex-wrap: wrap;
-}
-
-.badge-img {
-  height: 70px;
-  border-radius: 6px;
-  transition: transform 0.2s ease;
-  box-shadow: 0 2px 6px rgba(0, 0, 0, 0.1);
-}
-
-.badge-img:hover {
-  transform: scale(1.08);
-}
-
-body {
-  background-color: #fafafa;
-  color: #2c3e50;
-}
-
-h1 {
-  font-size: 2.4em;
-  margin-bottom: 0.2em;
-}
-
-h2 {
-  font-size: 1.5em;
-  margin-top: 1.5em;
-  border-bottom: 1px solid #eee;
-  padding-bottom: 0.3em;
-}
-
-ul {
-  padding-left: 1.2em;
-  list-style: disc;
-}
-
-.download-btn {
-  text-align: center;
-  margin-top: 1.2em;
-}
-
-.download-btn a {
-  display: inline-block;
-  padding: 0.6em 1.2em;
-  background-color: #2c3e50;
-  color: #fff;
-  text-decoration: none;
-  border-radius: 6px;
-  font-size: 0.95em;
-  transition: background-color 0.2s ease;
-}
-
-.download-btn a:hover {
-  background-color: #1a1a1a;
-}
-
-/* Spacing for the header elements */
-header p {
-  margin-bottom: 1.5em;
-}
-
-.title {
-  margin-bottom: 0.5em;
-}
-
-/* Social icons inline with spacing */
-.social-inline a {
-  margin: 0 0.5em;
-  color: #333;
-  text-decoration: none;
-  font-size: 1.4em;
-}
-
-/* Add spacing below badges */
-.badge-container {
-  margin-bottom: 2em;
-  display: flex;
-  justify-content: center;
-  gap: 0.75em;
-  flex-wrap: wrap;
-}
-
-/* Optional: tweak body spacing slightly */
-section {
-  margin-bottom: 2.5em;
 }
