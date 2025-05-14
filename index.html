@@ -9,18 +9,17 @@
   <link rel="stylesheet" href="https://use.fontawesome.com/releases/v6.0.0/css/all.css" />
   <style>
     .badge-container {
-      display: grid;
-      grid-template-columns: repeat(auto-fit, minmax(80px, 1fr));
-      gap: 1em;
+      display: flex;
+      flex-wrap: wrap;
       justify-content: center;
-      padding: 1.5em 0;
+      gap: 0.5em;
+      margin: 1em 0;
     }
     .badge-img {
       height: 60px;
       object-fit: contain;
       padding: 0.5em;
       border-radius: 8px;
-      background-color: #fff;
       box-shadow: 0 2px 8px rgba(0, 0, 0, 0.1);
       transition: transform 0.3s ease;
     }
